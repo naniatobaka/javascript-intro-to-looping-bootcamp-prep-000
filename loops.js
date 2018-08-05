@@ -25,19 +25,9 @@ function whileLoop(num) {
 function doWhileLoop (arr){
   function maybeTrue(){
     return Math.random() >= 0.5;
-<<<<<<< HEAD
-    arr.pop;
   }
-  do{ 
-    maybeTrue();
-  } 
-  while (arr.length > 0 || maybeTrue());
-=======
-  }
-    do{arr.pop()--;
+    do{arr.pop();
   } while (arr.length > 0 && maybeTrue());
-
->>>>>>> f0365896ef7880e4bf56fda9d8f9022c88df6673
   return arr;
 }
 
